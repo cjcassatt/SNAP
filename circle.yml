@@ -6,4 +6,4 @@ deployment:
   demo:
     branch: master
     commands:
-      - cap demo deploy
+      - bundle exec cap demo deploy
