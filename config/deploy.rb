@@ -37,8 +37,7 @@ set :pty, true
 
 set :ssh_options, {
   forward_agent: true,
-  auth_methods: ["publickey"],
-  keys: [ENV['AWS_KEY']]
+  auth_methods: ["publickey"]
 }
 
 namespace :deploy do
