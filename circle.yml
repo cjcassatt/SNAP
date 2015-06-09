@@ -6,4 +6,4 @@ deployment:
   demo:
     branch: master
     commands:
-      - cap deploy demo
+      - cap demo deploy
