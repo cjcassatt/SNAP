@@ -1,3 +1,9 @@
 test:
   override:
     - echo -e "No tests to run"
+    
+deployment:
+  demo:
+    branch: master
+    commands:
+      - cap deploy demo
