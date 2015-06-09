@@ -1,6 +1,6 @@
 dependencies:
   post:
-    - rake bower:install
+    - bundle exec rake bower:install
     
 database:
   post:
