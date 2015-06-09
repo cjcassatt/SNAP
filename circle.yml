@@ -4,7 +4,7 @@ dependencies:
     
 database:
   post:
-    - rake pop
+    - bundle exec rake pop
 
 test:
   override:
