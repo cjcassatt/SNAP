@@ -6,7 +6,7 @@ database:
   post:
     - bundle exec rake pop
 
-test:
+#test:
   #override:
   #  - echo -e "No tests to run"
     
