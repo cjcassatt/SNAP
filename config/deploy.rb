@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :application, 'SNAP'
-set :repo_url, 'https://github.com/STSILABS/SNAP.git'
+set :repo_url, 'https://github.com/cjcassatt/SNAP.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
