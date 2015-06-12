@@ -1,17 +1,1 @@
-dependencies:
-  post:
-    - bundle exec rake bower:install
-    
-database:
-  post:
-    - bundle exec rake pop
 
-test:
-  override:
-    - echo -e "No tests to run"
-    
-deployment:
-  demo:
-    branch: master
-    commands:
-      - bundle exec cap demo deploy
