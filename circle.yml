@@ -7,8 +7,8 @@ database:
     - bundle exec rake pop
 
 test:
-  override:
-    - echo -e "No tests to run"
+  #override:
+  #  - echo -e "No tests to run"
     
 deployment:
   demo:
